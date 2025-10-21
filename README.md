@@ -16,9 +16,9 @@ Battery -> Tattu TAA23004S75X6 14.8V LiPo
 
 
 
-3-wire connector from ESC -> yellow into pin 9, red into 5V rail of breadboard, brown into GND rail of breadboard. 
+3-wire connector from ESC -> yellow into pin 9 and through a 10kΩ resistor to GND, red into 5V rail of breadboard, brown into GND rail of breadboard. 
 
-3-wire connector from Servo -> yellow into pin 10, red into 5V rail of breadboard, brown into GND rail of breadboard. 
+3-wire connector from Servo -> yellow into pin 10 through a 220Ω resistor, red into 5V rail of breadboard, brown into GND rail of breadboard. 
 
 ~470 µF capactior across +5V and GND near the servo to tame current spikes. 
 
